@@ -1,10 +1,62 @@
-/*SMALL*/
+/*Less than 576px*/
+div {
+    margin: 4px auto;
+}
+
+.col-xsm-1 {
+    width: 8.33%;
+}
+
+.col-xsm-2 {
+    width: 16.66%;
+}
+
+.col-xsm-3 {
+    width: 25%;
+}
+
+.col-xsm-4 {
+    width: 33.33%;
+}
+.col-xsm-5 {
+    width: 41.66%;
+}
+
+.col-xsm-6 {
+    width: 50%;
+}
+
+.col-xsm-7 {
+    width: 58.33%;
+}
+
+.col-xsm-8 {
+    width: 66.66%;
+}
+
+.col-xsm-9 {
+    width: 75%;
+}
+
+.col-xsm-10 {
+    width: 83.33%;
+}
+
+.col-xsm-11 {
+    width: 91.66%;
+}
+
+.col-xsm-12 {
+    width: 100%;
+}
+
+/*Small 576 until 767*/
 @media (min-width: 576px) {
     body {
         background-color: skyblue;
     }
     
-    [class*="col"]{
+    div {
         margin: 6px auto;
     }
 
@@ -56,13 +108,13 @@
     }    
 }
 
-/*MEDIUM*/
+/*Medium 768 until 991*/
 @media (min-width: 768px) {
     body {
         background-color: darkmagenta;
     }
 
-    [class*="col"]{
+    div {
         margin: 8px auto;
     }
 
@@ -114,13 +166,13 @@
     }    
 }
 
-/*LARGE*/
+/*Large more than 992*/
 @media (min-width: 992px) {
     body {
         background-color: yellow;
     }
 
-    [class*="col"]{
+    div {
         margin: 10px auto;
     }
 
